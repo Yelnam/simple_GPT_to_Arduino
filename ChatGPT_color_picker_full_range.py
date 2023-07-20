@@ -5,7 +5,7 @@ import pandas as pd
 import string
 from PIL import ImageColor
 
-openai.api_key = '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'
+openai.api_key = openaikey
 
 table_color = pd.read_excel('C:/Users/rober/Desktop/Coding_Data/0 - GitHub/Python to Arduino - NOT YET COMMITTED/Color_Table.xlsx')
 
